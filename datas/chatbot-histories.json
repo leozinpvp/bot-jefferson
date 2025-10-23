@@ -1,0 +1,20 @@
+{
+   "557599049364@c.us": [
+      {
+         "role": "user",
+         "parts": [
+            {
+               "text": "oi"
+            }
+         ]
+      },
+      {
+         "parts": [
+            {
+               "text": "Olá! Como posso te ajudar hoje? 😊"
+            }
+         ],
+         "role": "model"
+      }
+   ]
+}

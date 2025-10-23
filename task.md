@@ -1,0 +1,5 @@
+- Remover atributo args
+- Inverter atributos ctx, client para client, ctx
+- criar o chatbot
+- - Dá inicio a conversa e a partir dai usa o chat livremente para um chat bot
+- - espera um !exit

@@ -1,0 +1,18 @@
+
+services:
+  bot:
+    build: ./
+    environment:
+      # - MASTER_NUMBER=557599049364
+      - MONGO_URI=mongodb://database:27017/wh-bot
+
+  database:
+    image: mongo:6.0.26-jammy
+    ports:
+      - 5003:27017
+    volumes:
+      - mongodb_data:/data/db
+      
+
+volumes:
+  mongodb_data:
